@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns="https://jarenharo.github.io/cse445_a4"
+<Hotel xmlns="https://jarenharo.github.io/cse445_a4"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="https://jarenharo.github.io/cse445_a4/ Hotels.xsd">
 
@@ -92,8 +92,6 @@
 
 	<Hotel Rating="4.7">
 		<Name>Drury Inn and Suites Phoenix Chandler Fashion Center</Name>
-		<Phone>480-899-8100</Phone>
-		<Phone>800-378-7946</Phone>
 		<Address NearestAirport="Phoenix Sky Harbor">
 			<Number>120</Number>
 			<Street>S Price Rd</Street>
@@ -106,7 +104,7 @@
 	<Hotel>
 		<Name>Comfort Suites</Name>
 		<Phone>602-555-6666</Phone>
-		<Address NearestAirport="Phoenix-Mesa Gateway">
+		<Address>
 			<Number>1625</Number>
 			<Street>S 48th St</Street>
 			<City>Phoenix</City>
@@ -117,6 +115,7 @@
 
 	<Hotel Rating="4.3">
 		<Name>Embassy Suites</Name>
+		<Name>FAKE</Name>
 		<Phone>480-555-7777</Phone>
 		<Phone>480-555-8888</Phone>
 		<Address NearestAirport="Sky Harbor">
@@ -137,6 +136,5 @@
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85251</Zip>
-		</Address>
-	</Hotel>
-</Hotels>
+		</Hotel>
+</Hotel>
